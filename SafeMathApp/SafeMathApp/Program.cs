@@ -17,6 +17,7 @@ namespace SafeMathApp
             Console.WriteLine("safe 1 + 2 = {0}", SafeMath.SafeAdd(1, 2));
             Console.WriteLine("1 + double.NaN = {0}", 1 + double.NaN);
             Console.WriteLine("safe 1 + double.NaN = {0}", SafeMath.SafeAdd(1, double.NaN));
+            Console.WriteLine("safe double.NaN + double.NaN = {0}", SafeMath.SafeAdd(double.NaN, double.NaN));
         }
     }
 }
