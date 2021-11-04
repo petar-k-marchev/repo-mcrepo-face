@@ -9,7 +9,7 @@ namespace SafeMathApp
             Console.WriteLine("Hello World!");
 
             PrintTest1();
-            Console.WriteLine("safe 166 + 42 = {0}", SafeMath.SafeSum(166, 42));
+            Console.WriteLine("safe 166 + 41 = {0}", SafeMath.SafeSum(166, 42));
         }
 
         private static void PrintTest1()
